@@ -1,0 +1,40 @@
+/* strat cursul  */
+
+.cursul{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cursul .slides {
+  width: 450px;
+  overflow: hidden;
+  height: 80%;
+  position: relative;
+}
+.cursul .slide{
+  position: absolute;
+  display: flex;
+  height: calc(100% - 30px);
+  transform: translateX(0);
+  transition: 0.5s;
+}
+.cursul .slides img{
+  width: 100%;
+  height: 100%;
+}
+.cursul .next , .cursul .prev {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  background: rebeccapurple;
+  color: #fff;
+  font-weight: 500;
+  width: 49%;
+  text-align: center;
+  border: none;
+}
+.cursul .next {
+  right: 0;
+}
+
