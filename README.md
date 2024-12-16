@@ -12,4 +12,3 @@ The Image Carousel project showcases a rotating gallery of images with smooth tr
 - **Smooth Transitions**: Includes animations for sliding images.
 - **Navigation Controls**: Previous, next buttons, and dot indicators.
 - **Autoplay Option**: Automatically cycle through images.
-- **Customizable Settings**: Easily adjust speed and transition effects.
